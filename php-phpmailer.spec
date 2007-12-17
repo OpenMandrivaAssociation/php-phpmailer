@@ -12,7 +12,6 @@ Group:		Development/Other
 URL:		http://phpmailer.sourceforge.net/
 Source:     http://downloads.sourceforge.net/phpmailer/%{base_name}-%{version}.tar.bz2
 BuildArch:	noarch
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 PHP email transport class featuring multiple file attachments, SMTP servers,
