@@ -1,7 +1,7 @@
 %define base_name	phpmailer
 %define name		php-%{base_name}
 %define version		1.73
-%define release		%mkrel 1
+%define release		%mkrel 2
 
 Name:		%{name}
 Version:	%{version}
@@ -11,7 +11,6 @@ License:	LGPL
 Group:		Development/Other
 URL:		http://phpmailer.sourceforge.net/
 Source:     http://downloads.sourceforge.net/phpmailer/%{base_name}-%{version}.tar.bz2
-BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
