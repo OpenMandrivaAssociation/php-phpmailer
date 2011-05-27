@@ -1,7 +1,7 @@
 %define base_name	phpmailer
 %define name		php-%{base_name}
 %define version		1.73
-%define release		%mkrel 5
+%define release		%mkrel 6
 
 Name:		%{name}
 Version:	%{version}
