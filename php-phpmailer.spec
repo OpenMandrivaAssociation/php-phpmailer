@@ -46,3 +46,41 @@ rm -rf %{buildroot}
 %{_libdir}/php/*.php
 
 
+
+
+%changelog
+* Fri May 27 2011 Oden Eriksson <oeriksson@mandriva.com> 1.73-6mdv2011.0
++ Revision: 679623
+- mass rebuild
+
+* Sun Jul 19 2009 Raphaël Gertz <rapsys@mandriva.org> 1.73-5mdv2010.0
++ Revision: 397579
+- Rebuild
+
+* Thu Jan 01 2009 Oden Eriksson <oeriksson@mandriva.com> 1.73-4mdv2009.1
++ Revision: 323035
+- rebuild
+
+* Fri Aug 08 2008 Thierry Vignaud <tv@mandriva.org> 1.73-3mdv2009.0
++ Revision: 268962
+- rebuild early 2009.0 package (before pixel changes)
+
+* Sun May 11 2008 Nicolas Lécureuil <nlecureuil@mandriva.com> 1.73-2mdv2009.0
++ Revision: 205685
+- Should not be noarch ed
+
+* Fri Dec 21 2007 Olivier Blin <oblin@mandriva.com> 1.73-1mdv2008.1
++ Revision: 136417
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Fri Dec 15 2006 Guillaume Rousse <guillomovitch@mandriva.org> 1.73-1mdv2007.0
++ Revision: 97287
+- Import php-phpmailer
+
+* Fri Dec 15 2006 Guillaume Rousse <guillomovitch@mandriva.org> 1.73-1mdv2007.1
+- first mdv release
+
