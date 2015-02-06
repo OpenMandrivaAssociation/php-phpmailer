@@ -2,7 +2,7 @@
 
 Name:		php-%{base_name}
 Version:	5.2.7
-Release:	1
+Release:	2
 Summary:	Full featured email transfer class for PHP
 License:	LGPL
 Group:		Development/Other
