@@ -6,7 +6,7 @@ Release:	2
 Summary:	Full featured email transfer class for PHP
 License:	LGPL
 Group:		Development/Other
-URL:		http://phpmailer.sourceforge.net/
+URL:		https://phpmailer.sourceforge.net/
 Source:		http://downloads.sourceforge.net/phpmailer/PHPMailer-master.zip
 BuildArch:	noarch
 
